@@ -1,0 +1,67 @@
+@import url(./fonts.css);
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  list-style-type: none;
+}
+body{
+  background-image: url("/assets/image/desenvolvedor-front-end.jpg");
+  background-size: 100%;
+  padding: 10px 30px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  color: #fff1ff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar li{
+  margin: 10px 20px;
+}
+.name{
+  font-size: 25px;
+  
+  margin: 30px 40px auto;
+  width: 200px;
+  align-self: flex-start;
+
+}
+.textBox{
+  height: auto;
+  color: #fff1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textBox h1{
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+.textBox h3{
+  margin-top: -10px;
+  font-size: 18px;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+  float: center left;
+
+}
+.icons img{
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+}
