@@ -1,67 +1,105 @@
 @import url(./fonts.css);
-*{
+* {
   padding: 0;
   margin: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   list-style-type: none;
 }
-body{
-  background-image: url("/assets/image/desenvolvedor-front-end.jpg");
-  background-size: 100%;
+body {
   padding: 10px 30px;
+  background-color: #2a9d8f;
 }
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.textTitle{
+  text-align: center;
+  color:#e9edc9 ;
+  border-bottom: 2px solid #e9edc9;
+  font-size: 75px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
-.navbar{
+.navbar {
   display: flex;
-  align-items:center;
-  justify-content:space-between;
-  color: #fff1ff;
+  align-items: center;
+  justify-content: space-between;
+  color: #e9edc9;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.navbar li{
+.navbar li {
   margin: 10px 20px;
 }
-.name{
+.name {
   font-size: 25px;
-  
+
   margin: 30px 40px auto;
   width: 200px;
   align-self: flex-start;
-
 }
-.textBox{
+.textBox {
   height: auto;
-  color: #fff1ff;
+  color: #e9edc9;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.textBox h1{
+.textBox h1 {
   font-size: 80px;
   letter-spacing: 3px;
 }
-.textBox h3{
+.textBox h3 {
   margin-top: -10px;
   font-size: 18px;
 }
-.icons{
-  display: flex;
-  flex-direction: column;
-  margin: 100px 0;
-  float: center left;
-
+.icons {
+  margin: 50px 0;
+  width: 60px;
+  float: left;
 }
-.icons img{
+.icons img {
   margin: 10px;
   width: 35px;
   height: 35px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+  background: #d8e2dc;
+  border-radius: 20px;
+  
+}
+.box .text {
+  color: #2a9d8f;
+  font-size: 35px;
+  text-shadow: 0.1px 4px 7px #2a9d8f;
+}
+.sobre{
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre .box {
+  width: 950px;
+  margin: 25px;
+
 }
