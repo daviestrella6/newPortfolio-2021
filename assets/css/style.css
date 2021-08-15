@@ -9,16 +9,16 @@
 }
 body {
   padding: 10px 30px;
-  background-color: #2a9d8f;
+  background-color: #fefae0;
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.textTitle{
+.textTitle {
   text-align: center;
-  color:#e9edc9 ;
+  color: #343a40;
   border-bottom: 2px solid #e9edc9;
   font-size: 75px;
   letter-spacing: 3px;
@@ -30,7 +30,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #e9edc9;
+  color: #343a40;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -40,14 +40,15 @@ header {
 }
 .name {
   font-size: 25px;
-
+  border-bottom: 2px solid #e9edc9;
   margin: 30px 40px auto;
   width: 200px;
   align-self: flex-start;
+  letter-spacing: 1px;
 }
 .textBox {
   height: auto;
-  color: #e9edc9;
+  color: #343a40;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,21 +86,61 @@ header {
   margin: 20px;
   background: #d8e2dc;
   border-radius: 20px;
-  
+  overflow: hidden;
+  text-align: justify;
+}
+.imageBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 .box .text {
   color: #2a9d8f;
   font-size: 35px;
   text-shadow: 0.1px 4px 7px #2a9d8f;
 }
-.sobre{
+.sobre,
+.contato {
   margin: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sobre .box {
+.box-sobre,
+.box-contato {
   width: 950px;
   margin: 25px;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
+}
+.box-font {
+  font-size: 35px;
+  color: #2a9d8f;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+.input-field{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-field .field{
+  width: 185px; 
 
+}
+
+textarea {
+  min-height: 100px;
+  min-width: 400px;
 }
