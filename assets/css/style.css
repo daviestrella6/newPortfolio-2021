@@ -6,20 +6,24 @@
   font-size: 100%;
   font-family: "Source Sans Pro", sans-serif;
   list-style-type: none;
+  text-decoration: none;
 }
 body {
-  padding: 10px 30px;
   background-color: #fefae0;
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0px 10px;
+}
+main {
+  padding: 10px 20px;
 }
 .textTitle {
   text-align: center;
   color: #343a40;
-  border-bottom: 2px solid #e9edc9;
+  border-bottom: 2px solid #2a9d8f;
   font-size: 75px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -40,12 +44,28 @@ header {
 }
 .name {
   font-size: 25px;
-  border-bottom: 2px solid #e9edc9;
+  border-bottom: 2px solid #2a9d8f;
   margin: 30px 40px auto;
   width: 200px;
   align-self: flex-start;
   letter-spacing: 1px;
 }
+.btn {
+  margin: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.btn.btn-menu {
+  color: #343a40;
+  margin: 0 5px;
+  background-color: #fefae0;
+  letter-spacing: 2px;
+}
+.btn.btn-menu:hover {
+  border-bottom: 2px solid #2a9d8f;
+}
+
 .textBox {
   height: auto;
   color: #343a40;
@@ -63,13 +83,13 @@ header {
 }
 .icons {
   margin: 50px 0;
-  width: 60px;
+  width: 50px;
   float: left;
 }
-.icons img {
-  margin: 10px;
-  width: 35px;
-  height: 35px;
+.icons svg {
+  height: 45px;
+  width: 45px;
+  margin: 5px;
 }
 .boxes {
   display: flex;
@@ -129,18 +149,31 @@ header {
   text-align: center;
   width: 400px;
 }
-.input-field{
-  
+.input-field {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.input-field .field{
-  width: 185px; 
-
+.input-field .field {
+  width: 185px;
 }
 
 textarea {
   min-height: 100px;
   min-width: 400px;
+}
+.btn.btn-up {
+  border-radius: 50%;
+  margin: -100px 10px;
+  float: right;
+  border-radius: 50%;
+}
+.btn.btn-up:hover {
+  opacity: 80%;
+}
+.footer {
+  display: flex;
+  background-color: #2a9d8f;
+  margin: 0;
+  padding: 0;
 }
