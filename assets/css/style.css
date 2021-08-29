@@ -49,6 +49,10 @@ main {
   width: 200px;
   align-self: flex-start;
   letter-spacing: 1px;
+  transition: 0.8s;
+}
+.name:hover{
+  color: #2a9d8f;
 }
 .btn {
   margin: 5px;
@@ -85,11 +89,18 @@ main {
   margin: 50px 0;
   width: 50px;
   float: left;
+  align-items: baseline;
 }
 .icons svg {
   height: 45px;
   width: 45px;
   margin: 5px;
+  transition: 0.3s;
+}
+.icons svg:hover{
+  opacity: 80%;
+  height: 48px;
+  width: 48px;
 }
 .boxes {
   display: flex;
@@ -176,4 +187,14 @@ textarea {
   background-color: #2a9d8f;
   margin: 0;
   padding: 0;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer .frase{ 
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fefae0;
 }
